@@ -32,8 +32,8 @@ new_color  <- "white"                # colour for the "active" second's points
 show_label <- TRUE                   # overlay elapsed-time label on each frame
 
 # RGL display size (pixels) — controls the rendered scene dimensions
-display_w  <- 800
-display_h  <- 800
+display_w  <- 1920
+display_h  <- 1080
 
 # View — custom set_view() function.  Named viewpoints:
 #   "top"  (top-down)       "bottom" (bottom-up)
@@ -48,7 +48,7 @@ view_custom_um <- NULL                     # only used when view_point = "custom
                                            # e.g. rotationMatrix(pi/6, 1, 0.5, 0)
 
 # Performance — set NULL to keep ALL points (will be very slow for large clouds)
-max_pts_per_sec <- 5000
+max_pts_per_sec <- 10000
 
 # ---- LIBRARIES -------------------------------------------------------------
 
